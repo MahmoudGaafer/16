@@ -14,7 +14,7 @@
         "security/ir.model.access.csv",
         "views/stock_valuation_report_view.xml"
     ],
-    'images': ['static/description/banner.png'],
+    'images': ['static/description/banner.jpg'],
     "application": True,
     "installable": True,
     "auto_install": False
