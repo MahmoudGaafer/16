@@ -7,7 +7,7 @@
     "maintainer": "Mahmoud Gaafer",
     "website": "https://www.linkedin.com/in/mahmoud-gaafer-b530191a9",
     "license": "LGPL-3",
-    "price": 20.0,
+    "price": 4,
     "currency": "USD",
     "depends": ["stock", "base"],
     "data": [
