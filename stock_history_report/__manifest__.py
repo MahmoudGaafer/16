@@ -1,7 +1,7 @@
 {
     "name": "Stock History Report",
     "summary": "Export stock history for specified datetime ranges across one or multiple warehouses or locations.",
-    "version": "16.0.1.0",
+    "version": "16.0",
     "category": "Warehouse/Reports",
     "author": "Mahmoud Gaafer",
     "maintainer": "Mahmoud Gaafer",
