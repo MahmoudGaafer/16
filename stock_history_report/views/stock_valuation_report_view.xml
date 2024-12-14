@@ -50,7 +50,7 @@
             <field name="view_mode">form</field>
             <field name="target">new</field>
         </record>
-        
+
         <menuitem id="menu_stock_valuation_report"
                   name="Stock History Report"
                   parent="stock.menu_warehouse_report"
