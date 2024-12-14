@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock History Report</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #4CAF50, #8BC34A);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 2em;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+            max-width: 800px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.5em;
+        }
+
+        .features {
+            margin-top: 1.5em;
+            text-align: left;
+        }
+
+        .features ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .features li {
+            padding: 0.5em 0;
+            font-size: 1.1em;
+            display: flex;
+            align-items: center;
+        }
+
+        .features li:before {
+            content: '\2714';
+            color: #4CAF50;
+            background: #fff;
+            border-radius: 50%;
+            padding: 0.2em;
+            margin-right: 0.5em;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 1.5em;
+            padding: 0.8em 2em;
+            font-size: 1.1em;
+            color: #4CAF50;
+            background: #fff;
+            border: none;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .button:hover {
+            background: #4CAF50;
+            color: #fff;
+            transform: translateY(-3px);
+        }
+
+        .screenshots {
+            margin-top: 2em;
+            text-align: center;
+        }
+
+        .screenshots img {
+            max-width: 60%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            margin: 1em 0;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Stock History Report</h1>
+    <p>
+        Seamlessly export stock history for specified datetime ranges across one or multiple warehouses or locations.
+        Perfect for managing your inventory with precision and ease.
+    </p>
+    <div class="features">
+        <h2>Features:</h2>
+        <ul>
+            <li>Detailed stock tracking across multiple warehouses & Locations</li>
+            <li>Customizable datetime range reports</li>
+            <li>Easy-to-use and intuitive interface</li>
+            <li>Compatible with Odoo 16</li>
+        </ul>
+    </div>
+    <a href="https://www.linkedin.com/in/mahmoud-gaafer-b530191a9" class="button">Learn More</a>
+    <br/>
+    <div class="screenshots">
+        <h2>How to Run the Report</h2>
+        <img src="stock_history_report/static/description/1.png" alt="Step 1" style="max-width: 60%;">
+        <hr/>
+        <img src="stock_history_report/static/description/2.png" alt="Step 2" style="max-width: 60%;">
+        <hr/>
+        <img src="stock_history_report/static/description/3.png" alt="Step 3" style="max-width: 60%;">
+        <hr/>
+        <img src="stock_history_report/static/description/4.png" alt="Step 4" style="max-width: 60%;">
+    </div>
+</div>
+</body>
+</html>
